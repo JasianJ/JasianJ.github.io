@@ -1,0 +1,121 @@
+nav {
+	font-family: 'PT Sans', sans-serif;
+}
+
+.navbar-brand {
+	font-weight: 700;
+}
+
+.navbar-bg {
+	background-color:  #c94402;
+}
+
+.dropdown-menu {
+	background-color: #c94402;
+	border-style: none;
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+.dropdown > .dropdown-toggle:active {
+    pointer-events: none;
+}
+
+.dropdown-item:hover {
+	background-color: #c94402;
+}
+
+.navbar-icon {
+	font-size: 20px;
+	color: black;
+}
+
+#content {
+	font-family: 'Nunito', sans-serif;
+	font-size: 1.2em;
+}
+
+section {
+	padding-top: 8%;
+	height: 100vh;
+}
+
+h2 {
+	color: #c64500;
+}
+
+.myContent {
+	margin-left: 5%;
+	border-left: 3px solid #cccccc;
+}
+
+#about {
+	margin-top: 0;
+}
+
+#surname {
+	color: #c94402;
+}
+
+.contact {
+	font-size: 20px;
+	color: #c94402;
+}
+
+.sns {
+	font-size: 50px;
+	margin-right: 2.5%;
+	color: #c94402;
+}
+
+.list-inline-item {
+	padding-right: 10%;
+	padding-bottom: 2.5%;
+	text-align: center;
+}
+
+.colored {
+	position: relative;
+	top: 13px;
+}
+
+#skills {
+	height: 110vh;
+}
+
+i {
+	font-size: 40px;
+}
+
+img {
+	height: 40px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.heading-style {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.2em;
+
+}
+
+.subheading {
+	font-style: italic;
+	color: #5b5a5a;
+	font-size: 0.8em;
+}
+
+.dates {
+	color: #c64500;
+}
+
+#employmentHistory {
+	height: 110vh;
+}
+
+#engineeringProjects {
+	height: 175vh;
+}
