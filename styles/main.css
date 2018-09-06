@@ -6,6 +6,44 @@
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   margin-top: 10%;
+  /* #one {
+    path {
+      stroke-dasharray: 146.33958435058594;
+      stroke-dashoffset: 146.33958435058594;
+    }
+
+    ellipse {
+      stroke-dasharray: 11;
+      stroke-dashoffset: 11;
+    }
+
+    polygon {
+      stroke-dasharray: 110.9136962890625;
+      stroke-dashoffset: 110.9136962890625;
+    }
+
+    rect {
+      stroke-dasharray: 160.60000610351562;
+      stroke-dashoffset: 160.60000610351562;
+    }
+  }
+
+  #group {
+    path {
+      &.one {
+        stroke-dasharray: 438.5050354003906;
+        stroke-dashoffset: 438.5050354003906;
+      }
+      &.two {
+        stroke-dasharray: 22.632381439208984;
+        stroke-dashoffset: 22.632381439208984;
+      }
+      &.three {
+        stroke-dasharray: 322.54058837890625;
+        stroke-dashoffset: 322.54058837890625;
+      }
+    }
+  } */
   /* @keyframes draw {
     20% {
       stroke: black;
@@ -46,41 +84,6 @@
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
   /* animation: 2s linear 0s 1 normal forwards running draw */
-}
-
-.bodyContainer #one path {
-  stroke-dasharray: 146.33958435058594;
-  stroke-dashoffset: 146.33958435058594;
-}
-
-.bodyContainer #one ellipse {
-  stroke-dasharray: 11;
-  stroke-dashoffset: 11;
-}
-
-.bodyContainer #one polygon {
-  stroke-dasharray: 110.9136962890625;
-  stroke-dashoffset: 110.9136962890625;
-}
-
-.bodyContainer #one rect {
-  stroke-dasharray: 160.60000610351562;
-  stroke-dashoffset: 160.60000610351562;
-}
-
-.bodyContainer #group path.one {
-  stroke-dasharray: 438.5050354003906;
-  stroke-dashoffset: 438.5050354003906;
-}
-
-.bodyContainer #group path.two {
-  stroke-dasharray: 22.632381439208984;
-  stroke-dashoffset: 22.632381439208984;
-}
-
-.bodyContainer #group path.three {
-  stroke-dasharray: 322.54058837890625;
-  stroke-dashoffset: 322.54058837890625;
 }
 
 @-webkit-keyframes draw {

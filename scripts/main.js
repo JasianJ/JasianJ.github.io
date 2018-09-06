@@ -10232,6 +10232,10 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 (0, _jquery2.default)(function () {
   console.log('Hello team "BEST UX team in adelphi"');
 
+  (0, _jquery2.default)('button').on('click', function () {
+    location.reload();
+  });
+
   var path = (0, _jquery2.default)('path'),
       ellipse = (0, _jquery2.default)('ellipse'),
       polygon = (0, _jquery2.default)('polygon'),
@@ -10242,7 +10246,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
     (0, _jquery2.default)(this).css('stroke-dasharray', stroke).css('stroke-dashoffset', stroke);
 
-    // console.log("path ", index+1, ": ", stroke);
+    console.log("path ", index + 1, ": ", stroke);
   });
 
   ellipse.each(function (index, value) {
@@ -10250,7 +10254,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
     (0, _jquery2.default)(this).css('stroke-dasharray', stroke).css('stroke-dashoffset', stroke);
 
-    // console.log("ellipse ", index+1, ": ", stroke);
+    console.log("ellipse ", index + 1, ": ", stroke);
   });
 
   polygon.each(function (index, value) {
@@ -10258,7 +10262,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
     (0, _jquery2.default)(this).css('stroke-dasharray', stroke).css('stroke-dashoffset', stroke);
 
-    // console.log("polygon ", index+1, ": ", stroke);
+    console.log("polygon ", index + 1, ": ", stroke);
   });
 
   rect.each(function (index, value) {
@@ -10266,7 +10270,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
     (0, _jquery2.default)(this).css('stroke-dasharray', stroke).css('stroke-dashoffset', stroke);
 
-    // console.log("rect ", index+1, ": ", stroke);
+    console.log("rect ", index + 1, ": ", stroke);
   });
 });
 
